@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0%;
+    position: sticky;
+    
+}
+#logo{
+    margin: 30px 40px;
+    height: 50px;
+
+}
+#logo img{
+  height: 60px;
+  margin: 3px 6px;
+  
+}
+
+#navbar ul{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+}
+#navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 4px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content:"";
+    background: url('../resturant/food.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.50;
+}
+#home h1{
+    color: aquamarine;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-decoration-color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.services{
+    margin: 34px;
+    display: flex;
+    
+}
+.services .box{
+    border: 2px solid brown;
+    padding: 35px;
+    margin: 3px 10px;
+    border-radius: 30px;
+    background: whitesmoke;
+}
+.services .box img{
+    height:160px;
+    display: block;
+    margin: auto;
+}
+.h-primary center{
+    margin-bottom: 30px;
+}
+
+.services .box p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#client-section{
+    height: 344px;
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../resturant/food1.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients img{
+   height: 134px;
+}
+.client-item{
+    padding: 34px;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h-secondary{
+font-size: 2.1rem;
+padding: 12px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 18px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.contact{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    
+}
+.contact::before{
+    content: "";
+    background: url('../resturant/contact.jpg') no-repeat center center/cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+   
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.contact-box, input, .contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+.contact-box form{
+    width: 50%;
+
+}
+.contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 800px;
+}
+
+.foot-center{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 5px solid lightcoral;
+}
+
+.open-services{
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.data-services ul{
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: 5px sloid red;
+    
+}
+.data-services ul li{
+    padding: 30px;
+    border:2px solid black;
+    border-radius: 5px;
+    
+}
